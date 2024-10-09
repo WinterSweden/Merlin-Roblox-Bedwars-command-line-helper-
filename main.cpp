@@ -81,6 +81,16 @@ int main() {
             std::cin >> arrow;
         }
 
+        else if (action == "!") {
+            if (int bedprot == 0 && mybed == 1) {
+            std::cout << "Protect the bed \n";
+            }
+            if (mybed == 0) {
+            std::cout << "Get max speed, good armour (Iron or better), and hide!!\n";
+            }
+        }
+
+        
         // End of variable configuration
 
         // Beginning of decision-making for armour
@@ -98,6 +108,34 @@ int main() {
         }
 
         // End of armour decision-making
+        // Start of Sword decision-making
+
+        if (iron >= 20 && swordtype = 1) {
+            std::cout << "Buy stone sword\n";
+        }
+
+        if (iron >=  70 && swordtype = 2) {
+            std::cout << "Buy iron sword\n";
+    
+         }
+        if (emeralds >= 4 && swordtype = 3) {
+            std::cout << "Buy diamond sword\n";
+    
+         } 
+        if (emeralds >= 20 && swordtype = 4) {
+            std::cout << "Buy emerald sword\n";
+    
+         }
+            // End of sword decision-making
+            // Start of safekeeping decisions
+        if (ems >= 10) {
+        std::cout << "Make them safe!\n";
+        }
+        if (dims >= 8)
+        std::cout << "Make them safe!\n";
+        }
+
+    
     }
 
  
