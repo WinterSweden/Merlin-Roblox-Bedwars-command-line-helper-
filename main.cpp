@@ -25,7 +25,7 @@ std::cout << "Loading variables and data handling... \n";
   
 std::cout << "Loaded. \n";
 
-  forever {
+  while(true) {
   
   std::cin >> action;
 
